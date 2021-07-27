@@ -27,6 +27,8 @@
     <title>Armour Games</title>
   </head>
   <body>
+    <!-- Barra de Navegação (Menu) -->
+
     <nav class="navbar navbar-expand-md navbar-light main-nav">
       <div class="container-fluid">
         <a href="index.html" class="navbar-brand text-brand w-25">
@@ -54,7 +56,12 @@
         <div class="collapse navbar-collapse w-50" id="navbarNav">
           <ul class="navbar-nav m-auto">
             <li class="nav-item">
-              <a class="nav-link active text-white navigation" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link active text-white navigation"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link text-white navigation" href="#">Biblioteca</a>
@@ -84,39 +91,101 @@
         </form>
       </div>
     </nav>
+    <!-- Fim da Barra de navegação -->
 
+    <!-- Inicio do corpo do texto -->
     <main class="pt-5">
-        <section class="container">
-            
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/The-Last-of-US.webp" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/forza.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/tekken-7.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+      <!-- Carousel -->
+      <section class="container">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/The-Last-of-US.webp"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="images/forza.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/tekken-7.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Fim do carousel -->
 
-        </section>
+      <!-- Inicio dos destaques-->
+      <section class="mt-5 container">
+        <!-- Divider -->
+        <div class="d-flex align-items-center">
+          <div class="divider col-3"></div>
+          <h2 class="text-white display-4 display-md-1 col-6 text-center">
+            Destaques
+          </h2>
+          <div class="divider col-3"></div>
+        </div>
+        <!-- Divider -->
+
+        <!-- Cards -->
+        <section></section>
+        <!-- Cards -->
+
+        <!-- Divider -->
+        <div class="d-flex align-items-center">
+          <div class="divider"></div>
+        </div>
+        <!-- Divider -->
+      </section>
+      <!-- Fim dos destaques -->
     </main>
+    <!-- Fim do Corpo do Texto -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script

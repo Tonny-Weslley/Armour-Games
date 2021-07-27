@@ -1,0 +1,35 @@
+:root{
+    --primary: #DB3A34;
+    --background-color: #221D23; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--background-color);
+}
+.main-nav{
+    background-color: var(--primary);
+
+    font-family: 'Nova Flat', cursive;
+}
+.text-brand{
+    font-size: 48px;
+    display: flex;
+    color:#221D23
+}
+
+.text-brand:hover{
+    transition: 5s;
+    color:green
+}
+
+.nav-link{
+    color:aliceblue;
+}
+.navigation{
+    font-size: 24px;
+}

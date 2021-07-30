@@ -1,44 +1,69 @@
-:root{
-    --primary: #DB3A34;
-    --background-color: #221D23; 
+:root {
+  --primary: #db3a34;
+  --background-color: #221d23;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    background-color: var(--background-color);
+body {
+  background-color: var(--background-color);
 }
 
-h1, h2, h3, h4, h5{
-    font-family: 'Nova Flat', cursive;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Nova Flat", cursive;
 }
 
-.main-nav{
-    background-color: var(--primary);
+.main-nav {
+  background-color: var(--primary);
 
-    font-family: 'Nova Flat', cursive;
+  font-family: "Nova Flat", cursive;
 }
-.text-brand{
-    font-size: 48px;
-    display: flex;
-    color:#221D23
-}
-
-.text-brand:hover{
-    transition: 5s;
-    color:green
+.text-brand {
+  font-size: 48px;
+  display: flex;
+  color: #221d23;
 }
 
-.nav-link{
-    color:aliceblue;
+.text-brand:hover {
+  transition: 5s;
+  color: green;
 }
-.navigation{
-    font-size: 24px;
+
+.nav-link {
+  color: aliceblue;
 }
-.divider{
-    height: 10px;
-    background-color: var(--primary)
+.navigation {
+  font-size: 24px;
 }
+.divider {
+  height: 10px;
+  background-color: var(--primary);
+}
+
+.card-game {
+  width: 310px;
+  height: 480px;
+  background-color: #c4c4c4;
+  transition: 1s;
+}
+
+.card-game:hover {
+  transition: 1s;
+  transform: scale(1.05);
+  -webkit-box-shadow: 3px 3px 0px 0px #db3a34, 7px 7px 0px 0px #c63949;
+  box-shadow: 3px 3px 0px 0px #db3a34, 7px 7px 0px 0px #c63949;
+}
+
+.card-game:hover:first-child {
+    transition: 1s;
+    transform: scale(1.05);
+    -webkit-box-shadow:  0px 0px 3px 3px #db3a34,  0px 0px 7px 7px #c63949;
+    box-shadow:  0px 0px 3px 3px #db3a34, 0px 0px 7px 7px #c63949;
+  }

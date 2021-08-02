@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../css/suporte.css">
+    <link rel="stylesheet" href="../css/main-style.css">
+
+    <title>Suporte</title>
+  </head>
+  <body class="d-flex justify-content-center flex-column">
+    <!-- Barra de Navegação (Menu) -->
+
+    <nav class="navbar navbar-expand-md navbar-light main-nav">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand text-brand w-25">
+          <img
+            src="../images/armour-logo.svg"
+            alt="site logo"
+            width="75"
+            height="75"
+          />
+          Armour
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse w-50" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white navigation"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white navigation" href="#">Biblioteca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white navigation" href="#">Suporte</a>
+            </li>
+          </ul>
+
+          <form class="d-flex w-50 d-block d-md-none">
+            <input
+              class="form-control me-2 w-100"
+              type="search"
+              placeholder="Procurar por Jogos..."
+              aria-label="Search"
+            />
+          </form>
+        </div>
+
+        <form class="d-flex w-25 d-none d-md-block">
+          <input
+            class="form-control me-2 w-100"
+            type="search"
+            placeholder="Procurar por Jogos..."
+            aria-label="Search"
+          />
+        </form>
+      </div>
+    </nav>
+    <!-- Fim da Barra de navegação -->
+    <main class="container my-5 rounded bgform p-4 w-75 d-flex flex-column justify-content-center" >
+
+      <img src="../images/suport.svg" alt="" class="mx-auto" width="100">
+
+      <form action="#">
+
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="nome" class="form-control" id="nome" name="nome" placeholder="Nome">
+          <small class="form-text text-muted">Nunca divulgaremos seus dados para terceiros</small>
+        </div>
+        <div class="form-group mt-1">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+        </div>
+        <div class="form-group mt-3">
+          <label for="exampleFormControlSelect1">Motivo de suporte</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Reembolso</option>
+            <option>Problema com distribuição</option>
+            <option>Bug da plataforma</option>
+            <option>Suporte tecnico</option>
+          </select>
+        </div>
+        <div class="form-group mt-3">
+          <label for="issue">Nos conte mais sobre:</label>
+          <textarea name="issue" id="issue" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+
+        <button class="btn btn-danger mt-3 px-5">Enviar</button>
+
+      </form>
+
+    </main>
+
+
+     <!-- Inicio do footer -->
+     <footer class="main-nav mt-5">
+      <div class="container d-flex flex-row align-items-center justify-content-between">
+        <a href="index.html" class="navbar-brand text-brand w-25">
+          <img
+            src="../images/armour-logo.svg"
+            alt="site logo"
+            width="75"
+            height="75"
+          />
+          Armour
+        </a>
+        <a class="text-white">Todos os direitos reservados</a>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -24,6 +24,10 @@ h5 {
   background-color: var(--primary);
 
   font-family: "Nova Flat", cursive;
+  
+}
+.main-nav a{
+  text-decoration: none;
 }
 .text-brand {
   font-size: 48px;
@@ -58,4 +62,10 @@ h5 {
 .card-game:hover {
   transition: 0.5s;
   transform: scale(1.05);
+}
+
+.item-biblioteca{
+  width: 600px;
+  height: 380px;
+  background-color:#c4c4c4;
 }

@@ -52,19 +52,10 @@ h5 {
   width: 310px;
   height: 480px;
   background-color: #c4c4c4;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .card-game:hover {
-  transition: 1s;
+  transition: 0.5s;
   transform: scale(1.05);
-  -webkit-box-shadow: 3px 3px 0px 0px #db3a34, 7px 7px 0px 0px #c63949;
-  box-shadow: 3px 3px 0px 0px #db3a34, 7px 7px 0px 0px #c63949;
-}
-
-.card-game:hover:first-child {
-  transition: 1s;
-  transform: scale(1.05);
-  -webkit-box-shadow: -3px -3px 0px 0px #db3a34, -7px -7px 0px 0px #c63949;
-  box-shadow: -3px -3px 0px 0px #db3a34, -7px -7px 0px 0px #c63949;
 }

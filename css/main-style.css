@@ -69,3 +69,7 @@ h5 {
   height: 380px;
   background-color:#c4c4c4;
 }
+
+.en_flag:hover{
+  cursor: pointer;
+}

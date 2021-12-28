@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="../css/main-style.css" /> 
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Armour Games</title>
+  </head>
+  <body>
+    <!-- Barra de Navegação (Menu) -->
+
+    <nav class="navbar navbar-expand-md navbar-light main-nav">
+      <div class="container-fluid">
+        <a href="../index.html" class="navbar-brand text-brand w-25">
+          <img
+            src="../images/armour-logo.svg"
+            alt="site logo"
+            width="75"
+            height="75"
+          />
+          Armour
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse w-50" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white navigation"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white navigation" href="#">Biblioteca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white navigation" href="#">Suporte</a>
+            </li>
+          </ul>
+          <a href="biblioteca-en.html"><img class="mx-4 en_flag" src="../images/eua_flag.png" width="30px"></a>
+          <form class="d-flex w-50 d-block d-md-none">
+            <input
+              class="form-control me-2 w-100"
+              type="search"
+              placeholder="Procurar por Jogos..."
+              aria-label="Search"
+            />
+          </form>
+        </div>
+
+        <form class="d-flex w-25 d-none d-md-block">
+          <input
+            class="form-control me-2 w-100"
+            type="search"
+            placeholder="Procurar por Jogos..."
+            aria-label="Search"
+          />
+        </form>
+
+        
+
+      </div>
+    </nav>
+    <!-- Fim da Barra de navegação -->
+
+        <!-- Divider -->
+        <div class="d-flex align-items-center my-5 container">
+          <div class="divider col-3"></div>
+          <h2 class="text-white display-4 display-md-1 col-6 text-center">
+            Biblioteca
+          </h2>
+          <div class="divider col-3"></div>
+        </div>
+    <!-- Divider -->
+
+
+    <section class="container">
+        <!-- Divider -->
+        <div class="mt-4  d-flex align-items-center">
+            <h2 class="text-light col-2">Ação</h2>
+            <div class="divider col-10"></div>
+            </div>
+        <!-- Divider -->
+        <div class="d-flex justify-content-center">
+            <div class="item-biblioteca my-4 mx-3">
+                <img src="../images/capsule_616x353.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="item-biblioteca my-4 mx-3">
+                <img src="../images/snpe4.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+
+        <div class="mt-4  d-flex align-items-center">
+            <h2 class="text-light col-2">Aventura</h2>
+            <div class="divider col-10"></div>
+            </div>
+        <!-- Divider -->
+        <div class="d-flex justify-content-center">
+            <div class="item-biblioteca my-4 mx-3">
+                <img src="../images/The-Last-of-US.webp" alt="" width="100%" height="100%">
+            </div>
+            <div class="item-biblioteca my-4 mx-3">
+                <img src="../images/rdr2.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+
+        <div class="mt-4  d-flex align-items-center">
+            <h2 class="text-light col-2">corrida</h2>
+            <div class="divider col-10"></div>
+            </div>
+        <!-- Divider -->
+        <div class="d-flex justify-content-center">
+            <div class="item-biblioteca my-4 mx-3">
+                <img src="../images/forza.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="item-biblioteca my-4 mx-3">
+                <img src="../images/f12021.png" alt="" width="100%" height="100%">
+            </div>
+        </div>
+
+        <div class="divider container"></div>
+    
+    </section>
+
+
+    <!-- Inicio do footer -->
+    <footer class="main-nav mt-5">
+        <div class="container d-flex flex-row align-items-center justify-content-between">
+          <a href="../index.html" class="navbar-brand text-brand w-25">
+            <img
+              src="../images/armour-logo.svg"
+              alt="site logo"
+              width="75"
+              height="75"
+            />
+            Armour
+          </a>
+          <a class="text-white">Todos os direitos reservados</a>
+        </div>
+      </footer>
+  
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>
